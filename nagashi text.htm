@@ -1,0 +1,25 @@
+<script type="text/javascript">
+<!--
+
+// 設定開始（メッセージの内容と動きを設定してください）
+
+var msg = 'メッセージをスクロールさせてみます・・・・・・・・・・・・・・・・'; // メッセージ内容
+var speed = 300; // スクロールのスピード（1に近いほど速く）
+var move = 2; // スクロールのなめらかさ（1に近いほどなめらかに）
+
+// 設定終了
+
+
+function disp(){
+
+	msg = msg.substring(move, msg.length) + msg.substring(0, move);
+
+	// テキストフィールドにデータを渡す処理
+	document.form1.field1.value = msg;
+
+	setTimeout("disp()", speed);
+
+}
+
+// --> 
+</script>
