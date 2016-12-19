@@ -2,18 +2,19 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Sample</title>
+<title>sample</title>
 <style>
-#header, #footer {
-  background-color: #fed;
-  height: 50px;
-  font-size: 30px;
+#header ,#footer{
+background-coler : #fed;
+height:50px;
+font-size:30px;
 }
-#main {
-  background-color: #eee;
+#main{
+background-color: #eee;
 }
 </style>
 </head>
 <body>
-<div id="header">ƒwƒbƒ_</div>
-<div id="main">
+<div id ="header">header</div>
+<div id ="main">
+

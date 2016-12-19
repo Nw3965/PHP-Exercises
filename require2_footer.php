@@ -1,4 +1,4 @@
-<div>
-<div id="footer">ƒtƒbƒ^</div>
+</div>
+<div id ="footer">footer</div>
 </body>
 </html>
